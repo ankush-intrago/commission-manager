@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>User who earns this commission</description>
+    <externalId>false</externalId>
+    <label>Payee</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Commission Statements</relationshipLabel>
+    <relationshipName>Commission_Statements</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

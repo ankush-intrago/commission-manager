@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clawback_Reference__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links to original statement if this is a clawback</description>
+    <externalId>false</externalId>
+    <label>Clawback Reference</label>
+    <referenceTo>Commission_Statement__c</referenceTo>
+    <relationshipLabel>Clawback Statements</relationshipLabel>
+    <relationshipName>Clawback_Statements</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

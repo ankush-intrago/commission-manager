@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enable_Split_Commissions__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Enable split commissions between multiple roles</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Enable Split Commissions</label>
+    <type>Checkbox</type>
+</CustomField>

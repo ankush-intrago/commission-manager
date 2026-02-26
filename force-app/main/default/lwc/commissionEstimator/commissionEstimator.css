@@ -1,0 +1,20 @@
+.slds-progress-bar {
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #e0e5ee;
+}
+
+.slds-progress-bar__value_success {
+    background-color: #04844b;
+    border-radius: 0.25rem;
+    transition: width 0.3s ease-in-out;
+}
+
+.slds-text-heading_medium {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.slds-text-color_success {
+    color: #04844b;
+}
