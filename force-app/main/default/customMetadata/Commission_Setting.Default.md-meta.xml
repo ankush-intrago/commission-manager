@@ -12,6 +12,6 @@
     </values>
     <values>
         <field>Calculation_Trigger_Stage__c</field>
-        <value xsi:type="xsd:string">Closed Won</value>
+        <value xsi:type="xsd:string">Close Deal</value>
     </values>
 </CustomMetadata>

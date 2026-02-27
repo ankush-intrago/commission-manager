@@ -28,7 +28,7 @@ public with sharing class CommissionTriggerHandler {
                 closedWonOpps.add(opp);
             }
 
-            if (opp.StageName == 'Closed Lost' && oldOpp.StageName == triggerStage) {
+            if (opp.StageName == 'Lost' && oldOpp.StageName == triggerStage) {
                 clawbackOpps.add(opp);
             }
         }
